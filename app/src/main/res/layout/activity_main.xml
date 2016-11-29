@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dimen_layout_padding"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.administrator.appportfolio.MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:text="@string/My_NanoDegree_Apps"
+        android:layout_width="344dp"
+        android:layout_height="53dp"
+        android:id="@+id/textView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        tools:gravity="top|center_horizontal"
+        android:gravity="top|center_horizontal"
+        android:textSize="30sp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:text="@string/Popular_Movies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:layout_weight="0.13"
+        android:textSize="18sp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textStyle="normal|bold"
+        android:layout_marginBottom="@dimen/button_margin" />
+
+    <Button
+        android:text="@string/Stock_Hawk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_weight="0.13"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:layout_marginBottom="@dimen/button_margin" />
+
+    <Button
+        android:text="@string/Build_it_Bigger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:layout_weight="0.13"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:layout_marginBottom="@dimen/button_margin" />
+
+    <Button
+        android:text="@string/make_your_app_material"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:layout_weight="0.13"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_marginBottom="@dimen/button_margin" />
+
+    <Button
+        android:text="@string/Go_Ubiquitous"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:layout_weight="0.13"
+        android:textSize="18sp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textStyle="normal|bold"
+        android:layout_marginBottom="@dimen/button_margin" />
+
+    <Button
+        android:text="@string/Capstone_my_own_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button6"
+        android:layout_weight="0.13"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+</LinearLayout>

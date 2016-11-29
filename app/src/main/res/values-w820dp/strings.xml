@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Capstone_my_own_app">Capstone: my own app</string>
+    <string name="stock_hawk_toast">This Button will launch my Stock Hawk project</string>
+    <string name="Go_Ubiquitous_toast">This Button will launch my Go Ubiquitous project</string>
+</resources>
